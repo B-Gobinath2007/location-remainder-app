@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LocaMinder" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Main Brand Colors -->
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryVariant">@color/primary_purple_dark</item>
+        <item name="colorOnPrimary">@color/bg_white</item>
+        
+        <item name="colorSecondary">@color/secondary_orange</item>
+        <item name="colorSecondaryVariant">@color/secondary_orange_dark</item>
+        <item name="colorOnSecondary">@color/bg_white</item>
+        
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/bg_light</item>
+        <item name="colorSurface">@color/bg_white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.LocaMinder.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primary_purple</item>
+        <item name="android:statusBarColor">@color/primary_purple</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Custom Button Styles -->
+    <style name="Widget.LocaMinder.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_purple</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Input Fields -->
+    <style name="Widget.LocaMinder.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxStrokeColor">@color/border_color</item>
+        <item name="hintTextColor">@color/primary_purple</item>
+    </style>
+</resources>

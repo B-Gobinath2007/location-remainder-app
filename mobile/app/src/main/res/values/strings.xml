@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LocaMinder</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">No active internet connection found.</string>
+    <string name="error_invalid_credentials">Invalid username or password.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_empty_fields">All fields are required.</string>
+    
+    <!-- Login & Register -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="create_account">Create Account</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="has_account">Already have an account?</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Your Dashboard</string>
+    <string name="active_reminders">Active Reminders</string>
+    <string name="no_reminders">No reminders yet.\nTap + to add one.</string>
+    <string name="logout">Logout</string>
+
+    <!-- Add Reminder -->
+    <string name="add_reminder">Add Reminder</string>
+    <string name="title_hint">e.g., Buy groceries</string>
+    <string name="trigger_radius">Trigger Radius</string>
+    
+    <!-- Geofencing -->
+    <string name="notification_channel_id">locaminder_geofence</string>
+    <string name="notification_channel_name">Location Reminders</string>
+</resources>
